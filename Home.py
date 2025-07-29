@@ -155,10 +155,10 @@ with tab3:
     ">
     <b>Line Priority Legend</b><br>
     <i style="background:#D3D3D3; width:10px; height:10px; display:inline-block;"></i> No priority<br>
-    <i style="background:#ffffcc; width:10px; height:10px; display:inline-block;"></i> Low<br>
-    <i style="background:#ffeda0; width:10px; height:10px; display:inline-block;"></i> Mid<br>
-    <i style="background:#feb24c; width:10px; height:10px; display:inline-block;"></i> Mid-High<br>
-    <i style="background:#f03b20; width:10px; height:10px; display:inline-block;"></i> High<br>
+    <i style="background:#ffffcc; width:10px; height:10px; display:inline-block;"></i> Low priority<br>
+    <i style="background:#ffeda0; width:10px; height:10px; display:inline-block;"></i> Mid priority<br>
+    <i style="background:#feb24c; width:10px; height:10px; display:inline-block;"></i> Mid-High priority<br>
+    <i style="background:#f03b20; width:10px; height:10px; display:inline-block;"></i> High priority<br>
     </div>
     """
     m.get_root().html.add_child(folium.Element(legend_html))
