@@ -41,7 +41,7 @@ with tab2:
     st.markdown(f"### Scenario: **{scenario}**")
 
     # Load grid_normalised layer
-    grid_path = r"G:\EO2025\Analysis\Investment\Africa\1_Country Studies\Uganda\GIS\_Layers LA\Output\grid_normalised.gpkg"
+    grid_path = r"C:\Users\ALBERTINI_L\Desktop\national_grid_app\input\grid_normalised.gpkg"
     grid_gdf = gpd.read_file(grid_path)
 
     # Check columns and CRS
@@ -106,7 +106,7 @@ with tab3:
     import geopandas as gpd
 
     # File path to transmission lines
-    lines_path = r"G:\EO2025\Analysis\Investment\Africa\1_Country Studies\Uganda\GIS\_Layers LA\Output\greenfield_lines_prior.gpkg"
+    lines_path = r"C:\Users\ALBERTINI_L\Desktop\national_grid_app\input\greenfield_lines_prior.gpkg"
     lines_gdf = gpd.read_file(lines_path)
 
     # Convert CRS if needed
@@ -158,7 +158,11 @@ with tab3:
     <i style="background:#ffffcc; width:10px; height:10px; display:inline-block;"></i> Low priority<br>
     <i style="background:#ffeda0; width:10px; height:10px; display:inline-block;"></i> Mid priority<br>
     <i style="background:#feb24c; width:10px; height:10px; display:inline-block;"></i> Mid-High priority<br>
+<<<<<<< HEAD
     <i style="background:#f03b20; width:10px; height:10px; display:inline-block;"></i> High priority<br>
+=======
+    <i style="background:#f03b20; width:10px; height:10px; display:inline-block;"></i> High<br>
+>>>>>>> 6da60f9 (Update Home.py and add data files)
     </div>
     """
     m.get_root().html.add_child(folium.Element(legend_html))
